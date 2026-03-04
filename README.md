@@ -29,7 +29,7 @@ This study provides a high-confidence structural model of the interaction betwee
 To ensure the reliability of the in silico model, the following three validation pillars were analyzed:
 
 #### **1. Multiple Sequence Alignment (MSA) Coverage**
-![Sequence Coverage](Nostoc_Sequence_Coverage.png)
+![Sequence Coverage](Nostoc_Sequence_coverage.png)
 *Figure 3: The MSA reached a depth of **2,000 sequences**. This "mountain" plot proves the model is backed by a massive evolutionary dataset, ensuring the structural folding is statistically robust.*
 
 #### **2. Per-residue Confidence (pLDDT)**
