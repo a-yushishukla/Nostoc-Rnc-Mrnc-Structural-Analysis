@@ -23,4 +23,21 @@ This study provides a high-confidence structural model of the interaction betwee
 4. **Visualization**: Secondary structure and molecular surface analysis were performed in **PyMOL** with ray-tracing for high-resolution detail.
 
 ---
+---
+### **Model Validation & Confidence Analysis**
 
+To ensure the reliability of the in silico model, the following three validation pillars were analyzed:
+
+#### **1. Multiple Sequence Alignment (MSA) Coverage**
+![Sequence Coverage](Nostoc_Sequence_Coverage.png)
+*Figure 3: The MSA reached a depth of **2,000 sequences**. This "mountain" plot proves the model is backed by a massive evolutionary dataset, ensuring the structural folding is statistically robust.*
+
+#### **2. Per-residue Confidence (pLDDT)**
+![Model Confidence](Nostoc_Model_Confidence.png)
+*Figure 4: Local confidence scores for the **Rnc catalytic core** are consistently above **80 (High Confidence)**. The lower scores in the Mrnc subunit are typical for small, intrinsically flexible regulators.*
+
+#### **3. Predicted Aligned Error (PAE) Matrix**
+![Interaction Error](Nostoc_Interaction_Error.png)
+*Figure 5: The **dark blue regions** at the off-diagonal interfaces confirm that the relative orientation of the Rnc-Mrnc complex is a high-confidence prediction with low positional error.*
+
+---
