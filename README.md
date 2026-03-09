@@ -30,11 +30,11 @@ To ensure the reliability of the in silico model, the following three validation
 
 #### **1. Multiple Sequence Alignment (MSA) Coverage**
 ![Sequence Coverage](Nostoc_Sequence_coverage.png)
-*Figure 3: The MSA reached a depth of **2,000 sequences**. This "mountain" plot proves the model is backed by a massive evolutionary dataset, ensuring the structural folding is statistically robust.*
+*Figure 3: The MSA reached a depth of **2,000 sequences**. This Sequence coverage plot proves the model is backed by a massive evolutionary dataset, ensuring the structural folding is statistically robust.*
 
 #### **2. Per-residue Confidence (pLDDT)**
 ![Model Confidence](Nostoc_Model_Confidence.png)
-*Figure 4: Local confidence scores for the **Rnc catalytic core** are consistently above **80 (High Confidence)**. The lower scores in the Mrnc subunit are typical for small, intrinsically flexible regulators.*
+*Figure 4: Local confidence scores for the Rnc catalytic core are consistently above $pLDDT > 80$ (High Confidence). The lower scores observed in the Mrnc subunit are consistent with its role as a small regulator; these regions likely represent intrinsically disordered or highly flexible loops that undergo a folding-upon-binding transition when interacting with the Rnc core.*
 
 #### **3. Predicted Aligned Error (PAE) Matrix**
 ![Interaction Error](Nostoc_Interaction_Error.png)
